@@ -1,0 +1,115 @@
+.clock{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color:#F8F8FF ;
+    justify-content: center;
+  align-items: center;
+}
+
+
+/* CSS */
+.logoutButton{
+ background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: absolute;
+  left: 1.5cm;
+  top: 1cm;
+  
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.logoutButton:hover,
+.logoutButton:focus {
+  background-color: #07c;
+}
+
+.logoutButton:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.logoutButton:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+
+
+
+/* CSS */
+.addNewEmpButton {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: absolute;
+  right: 3cm;
+  top: 1cm;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addNewEmpButton:hover,
+.addNewEmpButton:active {
+  outline: 0;
+}
+
+.addNewEmpButton:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.addNewEmpButton:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.addNewEmpButton:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .addNewEmpButton {
+    padding: 16px 32px;
+  }
+}
+
+.selectDesign{
+    position: absolute;
+    top     :3cm;
+    width: 200px;
+
+}
